@@ -1,0 +1,107 @@
+.profilewrapper{
+
+}
+aside{
+    width:450px;
+    background-color: rgb(200, 135, 15);
+}
+main{
+    background-color: rgb(12, 11, 10);
+    color: white;
+    height: 100vh;
+    overflow: scroll;
+}
+.noBullets{
+    padding: 0px;
+    margin:0px;
+    list-style-type:none;
+    
+}
+.noBullets li {
+    margin: 5px, 0px,10px,0px;
+}
+ .icon{
+     color: white;
+ }
+ .icon:hover{
+    color: rgb(12, 11, 10);
+}
+ .socialLinks li{
+    display: flex;
+    align-items: center;
+    outline: 0px;
+}
+.emailSection a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailSection a:hover{
+    color: black;
+}
+.profileImg{
+    background:rgba(rgba(231, 159, 26, 0.87), green, blue, alpha);
+}
+.profileImg img{
+  
+    border-radius: 5px;
+    filter: grayscale(0.5);
+}
+.name{
+/* border: 2px red solid; */
+text-transform: uppercase;
+font-size: 20px;
+font-family: 'futura';
+border-bottom: 5px solid rgba(251, 251, 251, 0.438);
+color: white;
+}
+.heading{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.heading::before{
+    content: "";
+    margin:auto;
+    height: 10px;
+    border-radius: 50%;
+    /* height: 100%; */
+    width:2px;
+    background-color: rgb(200, 135, 15);
+    
+    border: 2px  rgb(200, 135, 15) solid;
+    padding: 0px 5px 0px;
+    position: absolute;
+    top: 4px;
+    left:-8px;
+}
+.line{
+    border: 2px solid rgba(251, 173, 28, 0.246)
+}
+.block{
+    /* border: 2px red solid; */
+    position: relative;
+    border-left: 5px  rgb(231, 158, 21) solid;
+    padding:  0 10px;  
+}
+.subHeading{
+    display: flex;
+    font-weight:normal;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.box{ width: 10px; height: 10px; border: 5px red solid ;
+align-items: baseline;}
+.bg-tune{
+    background-color:  rgb(236, 171, 51);}
+.emailText{ color :white;}
+ h3{ color :white;}
+@media (max-width:400px){
+ .profilewrapper>aside{
+   width: 320px;
+ }
+ #pis{
+     border: 2px solid red;
+ }
+}
